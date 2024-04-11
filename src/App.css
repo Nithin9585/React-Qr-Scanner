@@ -1,0 +1,205 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+.nav{
+  background-color: #5C5470;
+  height: 25px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; /* Ensure the div starts from the left edge of the viewport */
+  z-index: 100; /
+}
+
+
+.img p{
+  color: #5C5470;
+  font-size: 3rem;
+  height: 80px;
+  width:80px;
+  position: absolute; 
+  top: 0px;
+  left: 0;
+  background-color: #FAF0E6;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+
+}
+.words{
+  height: 30rem;
+  width: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.words h1{
+  color:#5C5470;
+  font-size: 100px;
+}
+span{
+  color: #B9B4C7;
+}
+#down-arrow {
+  fill: #FAF0E6; /* Fill color */
+  width: 5rem; /* Width */
+  height: 5rem; /* Height */
+}
+
+.bi.bi-arrow-down-circle-fill {
+  width: 50px; /* Example width */
+  height: 50px; /* Example height */
+  fill: #FF8E8F; /* Example fill color */
+}
+@keyframes moveDownAndBack {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px); /* Move down by 20px */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.scroll-down svg {
+  animation: moveDownAndBack 2s infinite; /* Apply animation */
+}
+.Scan-qr{
+  width: 400px;
+  padding:25px 35px;
+  position:relative;
+  left:50%;
+  color: #352F44;
+
+  transform: translate(-50%,-50%);
+  background-color: #FAF0E6;
+  border-radius: 10px;
+  padding-top:10px ;
+  margin-top: 20rem;
+  box-shadow: 0 0 8px rgba(185, 180, 199, 0.5); 
+
+
+
+}
+
+.Scan-qr p{
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+
+}
+.Scan-qr input{
+  width: 100%;
+  height: 30px;
+  border: 1px solid #352F44;
+  outline: 0;
+  padding: 10px;
+  margin-bottom:20px ;
+  border-radius: 5px; 
+}
+.Scan-qr button{
+  border: #352F44;
+  background-color: #352F44;
+}
+
+.fline {
+  border: none;
+  height: 1px;
+  background-color: #B9B4C7;
+  position: relative;
+  top: 2.5rem;
+  background-color: transparent;
+  border-top: 1px dashed #B9B4C7;
+}
+.stest {
+  height: 50px;
+  position: absolute;
+  top:120% ;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center; 
+  
+}
+
+.generate-text {
+  font-size: 2rem;
+  color: #B9B4C7; 
+  letter-spacing: 0.8rem;
+  margin-left: 9rem;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.generate-text span {
+  color: #FF8E8F; 
+}
+.stest p {
+  font-size: 2rem;
+  color: #B9B4C7;
+  letter-spacing: 0.8rem;
+  padding: 1rem;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  padding-left: 1rem;
+
+}
+
+
+.spage{
+  height: 100px;
+  position:relative;
+  top: 12rem;
+}
+#imgbox img {
+  transition: opacity 0.3s ease-in-out; 
+}
+
+.scanner{
+  height: 10rem;
+  width: 20rem;
+  position: relative;
+  left: 30%;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+
+}
+.nav svg{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+  width: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container svg{
+ color: #352F44;
+
+}
+
+.nav p{
+  margin-top: 0rem;
+  color: #FAF0E6;
+}
