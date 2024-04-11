@@ -15,7 +15,7 @@
   position: fixed;
   top: 0;
   left: 0; /* Ensure the div starts from the left edge of the viewport */
-  z-index: 100; /
+  z-index: 100; 
 }
 
 
@@ -201,5 +201,27 @@ span{
 
 .nav p{
   margin-top: 0rem;
-  color: #FAF0E6;
+  color: #f1f1f1;
+}
+
+/* This styles the scrollbar track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* This styles the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #5C5470;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5C5470;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar {
+  height: 10px;
 }
